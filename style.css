@@ -57,8 +57,13 @@ nav {
 }
 
 .hamburger {
+    position: absolute;
+    top: 30px;
+    right: 30px;
     display: none;
 }
+
+/* --------- */
 
 .container {
     display: flex;
