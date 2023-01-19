@@ -27,6 +27,7 @@ body::-webkit-scrollbar {
 
 .links ul li {
     list-style: none;
+    transition: 0.5s;
 }
 
 .links ul li a {
@@ -51,12 +52,13 @@ nav {
 
 .links ul li a:hover {
     color: rgb(100, 163, 222);
-    transition: 0.5s;
+    font-weight: 300;
+    /* transition: 0.5s; */
 }
 
 .links ul li:hover {
     scale: 1.1;
-    transition: 0.5s;
+
 }
 
 /* hamburger */
@@ -90,22 +92,56 @@ nav {
     margin: 30px 0;
 }
 
-.container button {
+/* .container button {
     margin-top: 30px;
     font-weight: bold;
     width: fit-content;
     padding: 10px 20px;
     border: none;
     border-radius: 20px;
-}
+} */
 
-.container button:hover {
+
+/* .container button:hover {
     color: white;
     background-color: rgb(100, 163, 222);
     transition: 0.5s;
     scale: 1.1;
     box-shadow: 13px 13px 20px rgb(194, 194, 194);
+} */
+
+.btn-class {
+    position: relative;
 }
+
+.btn-class div {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.btn-class a {
+    position: absolute;
+    top: 28%;
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn-class div:hover {
+    width: 113px;
+    border-radius: 25px;
+}
+
+/* .btn-class div:hover::after {
+    width: 50px;
+    transition: 0.5s;
+} */
 
 @media (max-width:850px) {
     .links {
