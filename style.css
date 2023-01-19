@@ -112,6 +112,7 @@ nav {
 
 .btn-class {
     position: relative;
+    cursor: pointer;
 }
 
 .btn-class div {
