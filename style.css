@@ -111,4 +111,23 @@ nav {
     .container {
         color: white;
     }
+
+    /* for navbar */
+
+    .links-show {
+        display: block;
+    }
+
+    .expand {
+        /* height: fit-content; */
+        height: 100vw;
+        background-color: aliceblue;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .links-expand {
+        flex-direction: column;
+        margin-top: 10px;
+    }
 }
