@@ -51,6 +51,15 @@ nav {
     transition: 0.5s;
 }
 
+/* hamburger */
+.hamburger i {
+    font-size: 30px;
+}
+
+.hamburger {
+    display: none;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -83,4 +92,18 @@ nav {
     transition: 0.5s;
     scale: 1.1;
     box-shadow: 13px 13px 20px rgb(194, 194, 194);
+}
+
+@media (max-width:850px) {
+    .links {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .container {
+        color: white;
+    }
 }
