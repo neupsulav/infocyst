@@ -1,3 +1,4 @@
+// navigation bar 
 let hamburger = document.querySelector('.hamburger')
 let navBar = document.getElementsByTagName('nav')[0]
 let links = document.getElementById('links')

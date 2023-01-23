@@ -92,23 +92,6 @@ nav {
     margin: 30px 0;
 }
 
-/* .container button {
-    margin-top: 30px;
-    font-weight: bold;
-    width: fit-content;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
-} */
-
-
-/* .container button:hover {
-    color: white;
-    background-color: rgb(100, 163, 222);
-    transition: 0.5s;
-    scale: 1.1;
-    box-shadow: 13px 13px 20px rgb(194, 194, 194);
-} */
 
 .btn-class {
     position: relative;
@@ -139,10 +122,81 @@ nav {
     border-radius: 25px;
 }
 
-/* .btn-class div:hover::after {
-    width: 50px;
-    transition: 0.5s;
-} */
+.hover-link i {
+    margin: 0px 20px;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.phn-no {
+    cursor: pointer;
+    background-color: rgb(104, 154, 229);
+    color: aliceblue;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    transition: 1s;
+
+    position: fixed;
+    top: 40%;
+    right: -100px;
+}
+
+.phn-no:hover {
+    width: 160px;
+    right: 0px;
+}
+
+.mail {
+    cursor: pointer;
+    background-color: rgb(104, 154, 229);
+    color: aliceblue;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    transition: 1s;
+
+    position: fixed;
+    top: 48%;
+    right: -100px;
+}
+
+.mail:hover {
+    width: 290px;
+    right: 0px;
+}
+
+.address {
+    cursor: pointer;
+    background-color: rgb(104, 154, 229);
+    color: aliceblue;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    transition: 1s;
+
+    position: fixed;
+    top: 56%;
+    right: -100px;
+}
+
+.address:hover {
+    width: 150px;
+    right: 0px;
+}
+
 
 @media (max-width:850px) {
     .links {
@@ -164,7 +218,6 @@ nav {
     }
 
     .expand {
-        /* height: fit-content; */
         height: 100vw;
         background-color: aliceblue;
         flex-direction: column;
