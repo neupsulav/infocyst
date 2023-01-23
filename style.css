@@ -21,10 +21,8 @@ body::-webkit-scrollbar {
     background: url('images/background.jpg') center/cover no-repeat;
 }
 
-.logo p {
-    color: rgb(32, 96, 225);
-    font-size: 40px;
-    font-weight: 700;
+.logo img {
+    width: 160px;
     cursor: pointer;
 }
 
