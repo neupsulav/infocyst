@@ -124,6 +124,10 @@ nav {
     border-radius: 25px;
 }
 
+.hover-link {
+    z-index: 1;
+}
+
 .hover-link i {
     margin: 0px 20px;
     font-size: x-large;
